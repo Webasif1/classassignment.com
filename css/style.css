@@ -538,7 +538,7 @@ img{
 }
 .about-us-txt ul li .text-icon p{
   color: var(--white-color);
-  font-size: 18px;
+  font-size: 15px;
   line-height: 20px;
 }
 .imp-links{
@@ -554,7 +554,7 @@ img{
 .imp-links ul li a{
   color: var(--white-color);
   padding: 0px !important;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 .imp-links ul li:hover a{
