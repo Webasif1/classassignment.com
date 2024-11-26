@@ -554,7 +554,7 @@ img{
 .imp-links ul li a{
   color: var(--white-color);
   padding: 0px !important;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 .imp-links ul li:hover a{
