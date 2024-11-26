@@ -1,0 +1,677 @@
+/* Basic structure of css start */
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--white-color);
+}
+html{
+  scroll-behavior: smooth !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: "Oswald", sans-serif !important;
+}
+a,
+p,
+label,
+li{
+  font-family: "Open Sans", sans-serif !important;
+}
+a{
+  text-decoration: none !important;
+}
+li{
+  list-style: none !important;
+}
+img{
+  width: 100% !important;
+}
+
+/* Basic structure of css end */
+
+/* Theme style css start */
+
+:root{
+  --white-color: rgb(255, 255, 255);
+  --primary-color: rgb(8, 114, 185);
+  --secondary-color:rgb(241,241,241);
+  --hover-service:rgb(91,197,244);
+}
+
+/* Theme style css end */
+
+/* Layout of web site css start */
+
+.btn-0ne,
+.btn-two{
+  background: transparent;
+  border: none;
+}
+.btn-0ne a{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  padding: 10px 20px;
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+  transition: .3s all ease-out;
+  -webkit-transition: .3s all ease-out;
+  -moz-transition: .3s all ease-out;
+  -ms-transition: .3s all ease-out;
+  -o-transition: .3s all ease-out;
+}
+.btn-0ne a:hover{
+  background: transparent;
+  border: 2px solid var(--white-color);
+}
+.btn-two a{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  padding: 10px 20px;
+  border: 2px solid var(--white-color);
+  transition: .3s all ease-in;
+  -webkit-transition: .3s all ease-in;
+  -moz-transition: .3s all ease-in;
+  -ms-transition: .3s all ease-in;
+  -o-transition: .3s all ease-in;
+}
+.btn-two a:hover{
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+.btn-0ne{
+  padding-right: 20px;
+}
+.common-heading h3{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #1e1e1e;
+  /* border-bottom: 2px solid var(--primary-color); */
+  /* border-bottom-style:2px solid double dashed;
+  border-bottom-color: var(--primary-color); */
+}
+
+/* Layout of web site css end */
+
+/* header section css start */
+
+.header-section-tex{
+  background-color: var(--primary-color);
+}
+.header-section-tex p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--white-color);
+}
+.header-social-icon .header-icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header-social-icon .header-icon li a{
+  color: var(--white-color);
+  font-size: 18px;
+  line-height: 20px;
+}
+.header-social-icon .header-icon li a:hover{
+  color: #1e1e1e;
+}
+/* .navbar{
+  height: 90px;
+} */
+.navbar-brand img{
+  height: 50px;
+}
+.nav-item .nav-link{
+  font-size: 20px;
+  font-weight: 600 !important;
+  line-height: 30px !important;
+  padding: 0 15px !important;
+}
+.nav-item .nav-link:hover{
+  color: var(--primary-color);
+}
+.nav-item .nav-link.active{
+  color: var(--primary-color) !important;
+}
+
+/* header section css end */
+
+/* Hero section css start */
+
+.hero-section-banner{
+  background-image: url(../image/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-section-overlay{
+  background-color: rgba(0,0,0,0.5);
+}
+.hero-section-items{
+  padding: 150px 0;
+  text-align: right;
+}
+.hero-section-items h4{
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 40px;
+  /* word-spacing: 2px; */
+  letter-spacing: 2px;
+  color: var(--white-color);
+}
+.hero-section-items h1{
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 2px;
+  color: var(--white-color);
+  padding: 0px 0px 25px 0px;
+}
+.hero-section-items p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--white-color);
+  padding-bottom: 35px;
+}
+
+/* Hero section css end */
+/* About us section css start */
+
+/* .about-us-section{
+
+} */
+
+.about-tex p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 50px;
+}
+
+/* About us section css end */
+
+/* our service section start */
+
+.service-details{
+  /* height: 300px;
+  width: 400px !important; */
+  text-align: center;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.service-icon{
+  height: 110px !important;
+  width: 110px !important;
+  background-color: var(--white-color);
+  margin-top:-60px ;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 3px solid var(--secondary-color);
+  outline:5px solid var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .3s all linear;
+  -webkit-transition: .3s all linear;
+  -moz-transition: .3s all linear;
+  -ms-transition: .3s all linear;
+  -o-transition: .3s all linear;
+}
+.service-details .service-icon img{
+  width: 100px !important;
+  height: 100px;
+  padding: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  /*margin-top: -50px;
+  */background-color: var(--secondary-color);
+  border: 3px solid var(--white-color);
+  transition: .3s all linear;
+  -webkit-transition: .3s all linear;
+  -moz-transition: .3s all linear;
+  -ms-transition: .3s all linear;
+  -o-transition: .3s all linear;
+}
+.service-details:hover .service-icon{
+  border: 3px solid var(--hover-service);
+}
+.service-details:hover .service-icon img{
+  background-color: var(--hover-service);
+}
+.service-text h4{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #1e1e1e;
+  padding-bottom: 15px;
+}
+.service-text p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+/* our service section end */
+/* Portfolio section css start */
+
+.portfolio-image{
+  position: relative;
+  cursor: pointer;
+}
+.portfolio-image img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -o-transition: .5s ease;
+}
+.hover-image{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.7);
+}
+.hover-image img{
+  background-color: var(--primary-color);
+  height: 50px !important;
+  width: 50px !important;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  opacity: 0;
+}
+.portfolio-image:hover .hover-image{
+  opacity: 1;
+}
+.portfolio-image:hover .hover-image img{
+  opacity: 1;
+}
+
+/* Portfolio section css end */
+
+/* Our team section css start */
+
+.our-team-images{
+  position: relative;
+  cursor: pointer;
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -o-transition: .5s ease;
+  text-align: center;
+}
+.our-team-tex h4{
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+}
+.our-team-tex p{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.our-team-images img{
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: .5 all ease;
+  -webkit-transition: .5 all ease;
+  -moz-transition: .5 all ease;
+  -ms-transition: .5 all ease;
+  -o-transition: .5 all ease;
+}
+.our-team-icons{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  background-color: rgba(0,0,0,0.7);
+  /* display: none; */
+  transition: .5s all linear;
+  -webkit-transition: .5s all linear;
+  -moz-transition: .5s all linear;
+  -ms-transition: .5s all linear;
+  -o-transition: .5s all linear;
+  display: flex;
+  justify-content: space-evenly !important;
+  flex-direction: column;
+}
+.our-team-icons ul {
+  vertical-align: middle;
+}
+.our-team-icons ul li{
+  padding: 14px 0;
+}
+.our-team-icons ul li a{
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  align-items: center;
+  color: var(--white-color);
+  font-size: 20px;
+  line-height: 15px;
+  font-weight: 500;
+  padding: 20px;
+  height: 30px;
+  width: 30px;
+  margin-left: -10px;
+  border: 2px solid var(--white-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: .5s all ease;
+}
+.our-team-icons ul li a:hover{
+  background-color: var(--hover-service);
+  border: 2px solid var(--hover-service);
+}
+.our-team-images:hover .our-team-icons{
+  width: 30%;
+}
+
+
+/* Our team section css end */
+/* testimonial  section css start */
+
+.test-image-text{
+  text-align: center;
+}
+.test-image-text img{
+  width: 15% !important;
+  margin-bottom: 20px;
+}
+.feedback-text{
+  margin-top: 30px;
+  text-align: center;
+  padding: 25px 20px;
+  background-color: var(--secondary-color);
+  position: relative;
+}
+.feedback-text img{
+  width: 20% !important;
+  padding-bottom: 10px;
+}
+.feedback-text h4{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.feedback-text h5{
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.feedback-text p{
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.feedback-text::after{
+  content: "";
+  font-size: 18px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid var(--secondary-color);
+
+}
+
+
+/* testimonial  section css end */
+
+/* Footer section css start */
+
+.footer-section-main{
+  background-color: rgb(53,53,53);
+}
+.logo-section img{
+  width: 40% !important;
+  padding-bottom: 20px;
+}
+.logo-section p{
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.about-us-txt h3{
+  color: var(--white-color);
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 20px;
+
+}
+.about-us-txt ul{
+  padding: 0px !important;
+}
+.about-us-txt ul li{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.about-us-txt ul li i{
+  color: var(--white-color);
+  font-size: 20px;
+  /* height: 30px;
+  width: 30px; */
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: var(--hover-service);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 20px !important;
+}
+.about-us-txt ul li .text-icon p{
+  color: var(--white-color);
+  font-size: 18px;
+  line-height: 20px;
+}
+.imp-links{
+  margin-top: 0px !important;
+}
+.imp-links ul{
+  padding: 0px !important;
+  margin-top: 5px;
+}
+.imp-links ul li{
+  padding: 10px 0px !important;
+}
+.imp-links ul li a{
+  color: var(--white-color);
+  padding: 0px !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+.imp-links ul li:hover a{
+  color: var(--hover-service);
+}
+.footer-copyright {
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgb(85,85,85);
+}
+.footer-copyright p{
+  color: var(--white-color);
+  color: 24px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+/* Footer section css end */
+/* Responsive css start */
+
+@media 	(max-width:575px){
+  /* Layout of web site css start */
+
+.btn-0ne,
+.btn-two{
+  background: transparent;
+  border: none;
+}
+.btn-0ne a{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  padding: 10px 20px;
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+  transition: .3s all ease-out;
+  -webkit-transition: .3s all ease-out;
+  -moz-transition: .3s all ease-out;
+  -ms-transition: .3s all ease-out;
+  -o-transition: .3s all ease-out;
+}
+.btn-0ne a:hover{
+  background: transparent;
+  border: 2px solid var(--white-color);
+}
+.btn-two a{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  padding: 10px 20px;
+  border: 2px solid var(--white-color);
+  transition: .3s all ease-in;
+  -webkit-transition: .3s all ease-in;
+  -moz-transition: .3s all ease-in;
+  -ms-transition: .3s all ease-in;
+  -o-transition: .3s all ease-in;
+}
+.btn-two a:hover{
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+.btn-0ne{
+  padding-right: 20px;
+}
+.common-heading h3{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+/* Layout of web site css end */
+  .header-section-tex{
+    display: none;
+  }
+  .hero-section-items{
+    padding: 80px 0;
+    text-align: center;
+  }
+  .hero-section-items h4{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    /* word-spacing: 2px; */
+    letter-spacing: 0px;
+    color: var(--white-color);
+  }
+  .hero-section-items h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 2px;
+    color: var(--white-color);
+    padding: 0px 0px 20px 0px;
+  }
+  .hero-section-items p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--white-color);
+    padding-bottom: 30px;
+  }
+  .about-tex p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 10px;
+  }
+  .our-team-icons ul li{
+    padding: 20px 0px ;
+  }
+}
+
+/* Responsive css end */
